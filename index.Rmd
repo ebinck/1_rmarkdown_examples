@@ -84,7 +84,7 @@ dygraph(q_xts) %>%
 # Assignment. 
 
 
-This assignment will be primarily about demonstrating some expertice in using
+This assignment will be primarily about demonstrating some expertise in using
 RMarkdown, since we will be using Rmds as the primary form of homework and 
 assignments. With that in mind, your assignment for this homework is to:
 
