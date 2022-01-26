@@ -38,7 +38,7 @@ The Poudre River at Lincoln Bridge is:
 
 ## Data Acquisition and Plotting tests
 
-## Data Download
+### Data Download
 
 
 ```{r downloader}
@@ -119,8 +119,14 @@ todays date, not just a static date you enter.
 
 ## DyGraph example. 
 
+```{r}
+dygraph(q_xts) %>%
+  dyAxis("y", label = "Discharge (cfs)") %>%
+  dyOptions(drawPoints = TRUE, pointSize = 2)
+```
+
 
 ## Poudre Paragraph
 
-
+The [Poudre River] (https://www.rivers.gov/rivers/cache-la-poudre.php) runs from the Continental Divide to the east, down into the city of [Fort Collins] (https://www.visitftcollins.com/).  In the city, it flows year round.  It is a popular area for recreation, such as [rafting] (https://www.coloradorafting.net/river-trips/poudre-river/), kayaking, fishing, tubing, and more.  The river is dominated by snow melt, and therefore has a **strong peak** in the *spring or early summer* and relatively **low flows** in the *winter*.  
 
